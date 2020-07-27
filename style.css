@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*Default*/
+@media (max-width: 992px) {
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+h6 {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    overflow: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+    
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a{
+    color: hsl(0, 100%, 74%)  !important;
+    font-weight: 700;
+}
+
+.btn {
+    font-family: 'poppins';
+    font-weight: 400;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color:hsl(248, 32%, 49%);
+    border-radius: 10px;
+    height: 100px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.error {
+    color: hsl(0, 100%, 74%);
+    font-size: 11px;
+}
+
+.rwd-line {
+    display: block;
+    text-align: center;
+}
+
+#form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#terms {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+}
+}
+
+/* Desktop */
+
+@media (min-width: 992px) {
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+h6 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.10rem;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a{
+    color: hsl(0, 100%, 74%)  !important;
+    font-weight: 700;
+}
+
+.btn {
+    font-family: 'poppins';
+    font-weight: 400;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color:hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-left: 100px;
+    font-weight: 400;
+}
+
+.error {
+    color: hsl(0, 100%, 74%);
+    font-size: 11px;
+}
+
+
+
+#form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+#terms {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+}
+}
+
+
+
