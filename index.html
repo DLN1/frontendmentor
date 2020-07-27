@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+<!--SECTION 1-->
+<div class="container">
+  <div class="row align-items-center" style="height: 100vh;">
+    <div class="col-12 col-md-6">
+    <h1>Learn to Code by <br> watching others</h1>
+    <h6 class="mt-4">
+      <span class="rwd-line">See how experienced developers solve</span>
+      <span class="rwd-line">problems in real time. Watching</span>
+      <span class="rwd-line">scripted tutorials is great, but</span>
+      <span class="rwd-line">understanding how developers think is</span>
+      <span class="rwd-line">invaluable.</span>
+  </h6>
+  </div>
+<!--SECTION 2-->
+  <div class="col-12 col-md-6">
+    <button type="button" class="btn btn-primary py-3 px-5" href="#">
+      <span class="rwd-line"><strong>Try it free 7 days </strong>then</span> <span class='rwd-line'>$20/mo. thereafter</span>
+    </button>
+
+<!--FORM-->
+<form action="/" method="GET">
+<div class="container p-5 was-validated" id="form">
+<div class="form">
+  <input type="text" class="form-control form-control-lg" id="firstname" placeholder="First Name" aria-describedby="firstname" required>
+</div>
+
+<div class="formdiv">
+  <input type="text" class="form-control form-control-lg mt-5" id="validationCustom02" placeholder="Last Name" aria-describedby="lastname" required>
+</div>
+
+<div class="formdiv">
+    <input type="email" class="form-control form-control-lg firstName mt-5" id="validationCustomUsername" placeholder="Email Address" aria-describedby="emailHelp" required>
+  </div>
+
+  <div class="formdiv">
+    <input type="password" class="form-control form-control-lg mt-5" id="password" placeholder="Password" aria-describedby="exampleInputPassword1" required>
+  </div> 
+
+    <button type="submit" value="Input Button" type="button" class="btn btn-success p-3 mt-3">CLAIM YOUR FREE TRIAL</button>
+
+  <p id="terms" class="text-center">By clicking the button, you are agreeing to our
+    <a href="page2.html">
+      Terms and Services
+    </a>
+  </p>
+</div>
+</form>
+<!--FORM END-->
+
+  </div>
+  </div>
+</div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" style="color: black !important; target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#" style="color: black !important;">Jacob Carlberg</a>.
+    </p>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
